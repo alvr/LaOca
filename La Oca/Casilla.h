@@ -15,8 +15,7 @@ class Casilla {
 		void setNumero(int);
 		void setSiguiente(int);
 		void setTurnos(int);
-		
-		int getNumero();
+
 		int getSiguiente();
 		int getTurnos();
 	

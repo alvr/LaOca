@@ -1,8 +1,9 @@
 #include "Tablero.h"
+#include <cstdlib>
 
 using namespace std;
 
-void main() {
+int main() {
 	locale::global(locale("spanish"));
 	int numJ;
 	cout << "Número de jugadores: ";
@@ -13,4 +14,5 @@ void main() {
 	} else
 		cout << "El número de jugadores debe de ser de 2 a 4" << endl;
 	system("pause");
+	return 0;
 }

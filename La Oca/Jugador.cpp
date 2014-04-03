@@ -1,6 +1,7 @@
 #include "Jugador.h"
 #include <conio.h>
 #include <time.h>
+#include <cstdlib>
 
 Jugador::Jugador(string n) {
 	nombre = n;
@@ -29,7 +30,7 @@ int Jugador::getTurnos() {
 }
 
 int Jugador::tirarDados() {
-	srand(time_t(0));
+	srand(time(NULL));
 	return 1 + rand() % 6;
 }
 

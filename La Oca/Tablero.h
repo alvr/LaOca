@@ -11,7 +11,6 @@ class Tablero {
 		Casilla *c[63];
 		int numJugadores;
 		int turnoJugador;
-		bool fin;
 		void inicializarCasillas();
 		int siguienteJugador();
 		

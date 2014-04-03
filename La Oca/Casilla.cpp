@@ -18,10 +18,6 @@ void Casilla::setTurnos(int t) {
 	turnos = t;
 }
 
-int Casilla::getNumero() {
-	return numero;
-}
-
 int Casilla::getSiguiente() {
 	return siguiente;
 }
